@@ -1,16 +1,14 @@
-# React + Vite
+This project is my submission for Lab 2 – Introduction to React. It extends the tutorial React app by adding four custom components and a small CSS change.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Implemented Features
+Counter (Counter.jsx): Uses React state to display a number and lets the user increment, decrement, and reset it.
 
-Currently, two official plugins are available:
+Text Input (TextInput.jsx): A controlled text input that shows what the user has typed below the field.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Image Display (Image.jsx): Renders a heading and an image (basketball picture) on the page.
 
-## React Compiler
+Props Display (PropsDisplay.jsx): Accepts a prop (e.g., message) and displays its value, demonstrating how props work.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+CSS for ordered list (App.css): Added an .ordered-list class that left‑aligns the text and uses a more playful generic font.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run the project, install dependencies with npm install (and in any separate client/server folders if needed), then start the dev server with npm run dev and open the shown localhost URL in a browser.
